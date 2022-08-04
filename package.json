@@ -4,7 +4,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
-    "dev": "ts-node-dev src/index.ts"
+    "dev": "ts-node-dev src/index.ts",
+    "preinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
