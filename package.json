@@ -5,7 +5,7 @@
     "build": "tsc",
     "start": "node build/index.js",
     "dev": "ts-node-dev src/index.ts",
-    "preinstall": "npm run build"
+    "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
