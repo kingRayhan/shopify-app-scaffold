@@ -1,1 +1,1 @@
-## CuriousBiker Merchandise API
+## shopify-app-scaffold
